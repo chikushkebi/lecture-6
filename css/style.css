@@ -1,0 +1,124 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background: #F1F1F1;
+    width: 100%;
+    position: fixed;
+}
+
+.conteiner {
+    width: 1165px;
+    margin: 0 auto;
+    /* border: 2px solid rebeccapurple; */
+}
+
+nav {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    padding-right: 35px;
+}
+
+nav li {
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profileimg {
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}
+
+.s-1 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background: #F1F1F1;
+}
+
+.flex-conteiner {
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-1 h1 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 27px;
+}
+
+.card {
+    display: inline-block;
+    /* border: 2px solid red; */
+    background: white;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.relativediv {
+    /* border: 2px solid red; */
+    margin-bottom: 68px;
+    position: relative;
+}
+
+.cardp-1,
+.cardp-2 {
+    /* width: 238px; */
+    color: #8A8787;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 20px; */
+}
+
+.cardp-1 {
+    width: 238px;
+    line-height: 20px;
+    padding-bottom: 11px;
+    margin-left: 37px;
+}
+
+.cardp-2 {
+    display: inline-block;
+}
+
+.cardimg-2 {
+    padding-right: 11px;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+h2 {
+    position: absolute;
+    /* border: 2px solid rebeccapurple; */
+    bottom: 131px;
+    left: 41px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* PHOTOS */
