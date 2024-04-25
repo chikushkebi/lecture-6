@@ -1,3 +1,8 @@
+img{
+    z-index: 1;
+}
+
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -8,6 +13,7 @@ header {
     background: #F1F1F1;
     width: 100%;
     position: fixed;
+    z-index: 2;
 }
 
 .conteiner {
@@ -15,22 +21,17 @@ header {
     margin: 0 auto;
     /* border: 2px solid rebeccapurple; */
 }
-
-nav {
-    display: inline-block;
-}
-
-li {
-    display: inline-block;
-    padding-right: 35px;
-}
-
-nav li {
+nav li a{
     color: #000;
+    font-family: Roboto;
     font-size: 11px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+nav li {
+    display: inline-block;
+    padding-right: 35px;
 }
 
 nav {
@@ -75,7 +76,7 @@ nav {
     justify-content: space-between; */
 }
 
-.relativediv {
+.relativediv-1 {
     /* border: 2px solid red; */
     margin-bottom: 68px;
     position: relative;
@@ -121,4 +122,95 @@ h2 {
     line-height: normal;
 }
 
+
+
 /* PHOTOS */
+
+.s-2{
+    background:#F1F1F1;
+    padding-bottom: 36px;
+}
+
+.bigimgdiv{
+    width: 758px;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+.bigimgdiv img{
+    width: 758px;
+    height: 430px;
+}
+.relativediv-2{
+    position: relative;
+    margin-bottom: 42px;
+}
+.relativediv-2 h1{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.smallimgdiv{
+    display: inline-block;
+    vertical-align: top;
+    width: 362px;
+}
+.smallimg1{
+    padding-bottom: 98px;
+}
+.smallimg2{
+    padding-bottom: 103px;
+}
+
+/* FOOTER */
+
+footer{
+    background: #243043;
+    padding-top:60px;
+    
+    padding-bottom: 31px;  /* =  45px-14px */
+}
+.relativediv-3{
+    position: relative;
+    width: 1165px;
+}
+.footerul-div{
+    display: inline-block;
+    padding-right: 37px; /* 112px-75px */
+    /* border: 2px solid red; */
+}
+footer a{
+    color: #818687;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+footer ul{
+    display: inline-block;
+    padding-right: 75px;
+}
+footer li{
+    padding-bottom: 14px;
+}
+footer p{
+    display: inline-block;
+    vertical-align: top;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer img{
+    align-items: top;
+    /* border: 2px solid red; */
+    right: 550px;
+    position: absolute;
+    right: 0;
+}
